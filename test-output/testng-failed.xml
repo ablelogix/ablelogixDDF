@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoginSuite]">
+  <test name="LoginSuiteAdmin(failed)">
+    <classes>
+      <class name="com.ablelogix.ddf.testcases.login.LoginSuiteESSUser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="initSetup"/>
+          <include name="beforeSuite"/>
+          <include name="init"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.ablelogix.ddf.testcases.login.LoginSuiteESSUser -->
+      <class name="com.ablelogix.ddf.testcases.login.LoginSuiteAdmin">
+        <methods>
+          <include name="initSetup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="testLoginAdmin" invocation-numbers="0 1 2 3"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ablelogix.ddf.testcases.login.LoginSuiteAdmin -->
+    </classes>
+  </test> <!-- LoginSuiteAdmin(failed) -->
+  <test name="LoginSuiteESSUser(failed)">
+    <classes>
+      <class name="com.ablelogix.ddf.testcases.login.LoginSuiteESSUser">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+          <include name="initSetup"/>
+          <include name="beforeSuite"/>
+          <include name="init"/>
+          <include name="closeBrowser"/>
+          <include name="testLoginAdmin" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.ablelogix.ddf.testcases.login.LoginSuiteESSUser -->
+      <class name="com.ablelogix.ddf.testcases.login.LoginSuiteAdmin">
+        <methods>
+          <include name="initSetup"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="closeBrowser"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.ablelogix.ddf.testcases.login.LoginSuiteAdmin -->
+    </classes>
+  </test> <!-- LoginSuiteESSUser(failed) -->
+</suite> <!-- Failed suite [LoginSuite] -->

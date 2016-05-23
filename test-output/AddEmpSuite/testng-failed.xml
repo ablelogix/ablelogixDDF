@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AddEmpSuite]">
+  <test name="TestFnameEmpty(failed)">
+    <classes>
+      <class name="com.ablelogix.ddf.testcases.addemp.TestFnameEmpty">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeSuite"/>
+          <include name="afterTest"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="fnameEmpty" invocation-numbers="0 1 2"/>
+        </methods>
+      </class> <!-- com.ablelogix.ddf.testcases.addemp.TestFnameEmpty -->
+    </classes>
+  </test> <!-- TestFnameEmpty(failed) -->
+</suite> <!-- Failed suite [AddEmpSuite] -->
